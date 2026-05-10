@@ -1,5 +1,0 @@
-import { env } from "./config/env.js";
-import { app } from "./app.js";
-app.listen(env.PORT, () => {
-    console.log(`Traveloop API listening on http://localhost:${env.PORT}`);
-});
